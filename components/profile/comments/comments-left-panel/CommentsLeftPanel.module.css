@@ -1,0 +1,297 @@
+.comments_left_panel_container {
+    margin-right: 36px;
+    width: 868px;
+    padding-top: 19px;
+    padding-bottom: 44px;
+    padding-right: 27px;
+    padding-left: 26px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.comments_main_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.comments_main_title p {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.comments_main_title div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.comments_main_title div:last-child {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    white-space: nowrap;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100px;
+    height: 0px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.2s;
+    display: block;
+    text-align: center
+}
+
+.comments_main_title div:last-child p {
+    color: #F45858;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.show_remove_btn div:last-child {
+    height: 45px;
+}
+
+.comments_product_image {
+    width: 131px;
+    height: 131px;
+    border: 1px solid rgba(181, 181, 181, 0.3);
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.comments_product_image div {
+    width: 89px;
+    height: 88px;
+}
+
+.comments_like_number {
+    width: 52px;
+    height: 36px;
+    background-color: #F45858;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fdfdfd;
+    line-height: 0px;
+    margin-right: 18px;
+}
+
+.comments_text,
+.comments_text div,
+.comments_status,
+.comments_right_side,
+.comments_container {
+    display: flex;
+    align-items: center;
+}
+
+.comments_container {
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.comments_text {
+    margin-right: 14px;
+}
+
+.comments_text p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #585858;
+}
+
+.comments_text div {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.comments_text div p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #A698CF;
+    line-height: 37px;
+    margin-right: 8px;
+}
+
+.comments_text_input {
+    width: 300px;
+    height: 45px;
+    border: 1px solid rgba(181, 181, 181, 0.6);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #585858;
+}
+
+.comments_status button {
+    width: 79px;
+    height: 36px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #fdfdfd;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.comments_status button:first-child {
+    background-color: #F45858;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.comments_status button:nth-child(2) {
+    background-color: rgba(75, 65, 106, 0.9);
+    cursor: pointer;
+}
+
+.comments_btn_remove,
+.comments_btn_apply,
+.comments_btn_hide,
+.close_svg_hide {
+    display: none;
+}
+
+.comments_btn_show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+.delete_dialog_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.delete_dialog_form {
+    width: 500px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s 0.1s;
+}
+
+.delete_dialog_form_up_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.delete_dialog_form_up_side p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4B416A;
+    margin-top: 15px;
+}
+
+.delete_dialog_form_down_side {
+    margin-top: 30px;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 8px 8px;
+    padding: 40px 0px;
+    border-top: 2px solid #e3e3e3;
+}
+
+.delete_dialog_form_down_side p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #585858;
+    margin: auto;
+    width: fit-content;
+}
+
+.delete_dialog_form_down_side div:not(.favorites_loading_2) {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.comments_loading_2 {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.delete_dialog_form_down_side button {
+    border: 1px solid rgba(181, 181, 181, 0.5);
+    outline: none;
+    width: 140px;
+    height: 45px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #585858;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.delete_dialog_form_down_side button:first-child {
+    border: none;
+    background-color: #4B416A;
+    color: #fff;
+}
+
+.delete_dialog_container_show {
+    opacity: 1;
+    z-index: 999;
+}
+
+.delete_dialog_form_show {
+    opacity: 1;
+}
+
+.delete_dialog_close {
+    width: 50px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    cursor: pointer;
+}
+
+.delete_dialog_icon {
+    width: 64px;
+}

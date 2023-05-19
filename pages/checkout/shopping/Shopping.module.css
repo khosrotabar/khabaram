@@ -1,0 +1,36 @@
+.shopping_container {
+    padding-top: 37px;
+    padding-bottom: 60px;
+    width: 1218px;
+    margin: auto;
+}
+
+.cart_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 773px;
+}
+
+.cart_title p {
+    font-size: 24px;
+    font-weight: 800;
+    color: #4B416A;
+    line-height: 40px;
+}
+
+.cart_title div {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.cart_title div svg {
+    margin-left: 8px;
+}
+
+.cart_title div p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #585858;
+}

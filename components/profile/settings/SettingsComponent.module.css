@@ -1,0 +1,8 @@
+.settings_container {
+    display: flex;
+    align-items: flex-start;
+    width: 1218px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 79px;
+}

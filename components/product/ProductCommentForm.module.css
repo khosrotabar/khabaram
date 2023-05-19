@@ -1,0 +1,126 @@
+.form_container {
+    width: 644px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    padding-top: 23px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-bottom: 38px;
+}
+
+.form_title {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.form_input_1 {
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_input_1 input {
+    border: 3px rgba(181, 181, 181, 0.3) solid;
+    width: 268px;
+    height: 51px;
+    padding: 0 20px;
+    border-radius: 8px;
+    outline: none;
+    color: #4B416A;
+}
+
+.form_input_1 input::placeholder,
+.form_container textarea::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(88, 88, 88, 0.6);
+    line-height: 34px;
+}
+
+.form_input_1 button {
+    position: relative;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fdfdfd;
+    text-align: center;
+    width: 147px;
+    height: 51px;
+    border-radius: 8px;
+    background-color: #A698CF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container textarea {
+    border: 3px rgba(181, 181, 181, 0.3) solid;
+    border-radius: 8px;
+    width: 100%;
+    height: 104px;
+    margin-top: 24px;
+    padding: 0 20px;
+    resize: none;
+    padding-top: 9px;
+    outline: none;
+    color: #4B416A;
+}
+
+.form_input_1_score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 139px;
+    height: 51px;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    padding-left: 25px;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 11px;
+  margin-top: -11px;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  fill: rgba(181, 181, 181, 0.2);
+  /* -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px); */
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  fill: rgba(181, 181, 181, 0.6);
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  fill: #F45858;
+}

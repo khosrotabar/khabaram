@@ -1,0 +1,110 @@
+.home_part_7 {
+    margin-top: 59px;
+    overflow-x: hidden;
+}
+
+.home_part_7 p {
+    margin: 0;
+    padding: 0;
+}
+
+.home_part_7_up {
+    width: 1200px;
+    margin: auto;
+}
+
+.home_part_7_up p {
+    font-size: 24px;
+    color: #4B416A;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.swiper_children_container {
+    width: 332px;
+    height: 194px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.swiper_children_image_1 {
+    width: 132px;
+    height: 117px;
+    position: relative;
+    margin-left: 26px;
+}
+
+.swiper_children_image_2 {
+    width: 141px;
+    height: 141px;
+    position: relative;
+    margin-left: 19px;
+}
+
+.swiper_children_image_3 {
+    width: 129px;
+    height: 130px;
+    position: relative;
+    margin-left: 21px;
+}
+
+.swiper_children_image_4,
+.swiper_children_image_5 {
+    width: 147px;
+    height: 147px;
+    position: relative;
+    margin-left: 19px;
+}
+
+.swiper_children_titles_1 p,
+.swiper_children_titles_2 p,
+.swiper_children_titles_3 p,
+.swiper_children_titles_4 p,
+.swiper_children_titles_5 p {
+    font-weight: 800;
+    margin-right: 18px;
+}
+
+.swiper_children_titles_1 p {
+    width: 135px;
+}
+
+.swiper_children_titles_2 p {
+    width: 132px;
+}
+
+.swiper_children_titles_3 p {
+    width: 127px;
+}
+
+.swiper_children_titles_4 p {
+    width: 116px;
+}
+
+.swiper_children_titles_5 p {
+    width: 129px;
+}
+
+.swiper_children_titles_1 p:first-of-type,
+.swiper_children_titles_2 p:first-of-type,
+.swiper_children_titles_3 p:first-of-type,
+.swiper_children_titles_4 p:first-of-type,
+.swiper_children_titles_5 p:first-of-type {
+    font-size: 20px;
+    color: #4B416A;
+}
+
+.swiper_children_titles_1 p:last-of-type,
+.swiper_children_titles_2 p:last-of-type,
+.swiper_children_titles_3 p:last-of-type,
+.swiper_children_titles_4 p:last-of-type,
+.swiper_children_titles_5 p:last-of-type {
+    font-size: 16px;
+    color: #585858;
+    line-height: 32px;
+}

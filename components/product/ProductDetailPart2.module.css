@@ -1,0 +1,20 @@
+.product_part_2 {
+    background-color: #f4f4f4;
+    padding: 23px 29px 32px 32px;
+    border-radius: 8px;
+    margin-top: 66px;
+}
+
+.product_part_2 p:first-of-type {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.product_part_2 p:last-of-type {
+    margin-top: 17px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #585858;
+    line-height: 30px;
+}

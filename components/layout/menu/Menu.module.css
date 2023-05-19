@@ -1,0 +1,79 @@
+.menu_container {
+  position: absolute;
+  width: 193px;
+  border-radius: 8px;
+  background-color: #4b416a;
+  top: 75px;
+  right: 0;
+  z-index: 1;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+
+.open_menu {
+  height: 278px;
+}
+
+.menu_container p {
+  font-size: 14px;
+  color: #fdfdfd;
+}
+
+.menu_container div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.menue_1 {
+  margin-right: 18.4px;
+  margin-top: 18px;
+}
+.menue_2 {
+  margin-right: 17px;
+  margin-top: 28px;
+}
+.menue_3 {
+  margin-right: 14.89px;
+  margin-top: 29px;
+}
+.menue_4 {
+  margin-right: 18px;
+  margin-top: 29px;
+}
+.menue_5 {
+  margin-right: 19.46px;
+  margin-top: 29px;
+  margin-bottom: 24px;
+}
+
+.menue_1 p {
+  margin-right: 22.5px;
+  font-weight: 500;
+}
+.menue_2 p {
+  margin-right: 20.9px;
+  font-weight: 500;
+}
+.menue_3 p {
+  margin-right: 18px;
+  font-weight: 500;
+}
+.menue_4 p {
+  margin-right: 18px;
+  font-weight: 500;
+}
+.menue_5 p {
+  margin-right: 22px;
+  font-weight: 500;
+}
+
+.menue_1:hover p,
+.menue_2:hover p,
+.menue_3:hover p,
+.menue_4:hover p,
+.menue_5:hover p {
+  font-weight: 800;
+}

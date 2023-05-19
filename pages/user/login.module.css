@@ -1,0 +1,174 @@
+.login_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login_container p {
+    margin: 0;
+    padding: 0;
+}
+
+.login_container div:nth-child(1) div{
+    width: 162px;
+    height: 62px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container div:nth-child(2) {
+    font-size: 32px;
+    font-weight: 800;
+    color: #4B416A;
+    line-height: 64px;
+    margin-top: 18px;
+}
+
+.login_container div:nth-child(3) {
+    font-size: 16px;
+    font-weight: 500;
+    color: #585858;
+    line-height: 34px;
+    width: 315px;
+    text-align: center;
+}
+.login_container div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_container div:nth-child(4) input[type="tel"] {
+    width: 315px;
+    height: 55px;
+    border: 2px #b5b5b5 solid;
+    border-radius: 8px;
+    outline: none;
+    padding: 0px 18.5px;
+    font-size: 16px;
+    color: #4B416A;
+    font-weight: 500;
+    margin-top: 26px;
+}
+
+.login_container div:nth-child(4) input[type="tel"]::placeholder {
+    color: rgba(88, 88, 88, 0.6);
+    font-size: 14px;
+}
+
+.login_container div:nth-child(4) input[type="text"]::-webkit-inner-spin-button,
+.login_container div:nth-child(4) input[type="text"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.login_container div:nth-child(4) input[type="text"] {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px #b5b5b5 solid;
+    text-align: center;
+    outline: none;
+    margin: 8px;
+    font-size: 18px;
+    color: #4B416A;
+    font-weight: bold
+}
+
+.verfication_inputs_container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
+}
+
+.mobile_input_hide {
+    display: none;
+}
+
+.verfication_inputs_show {
+    display: flex;
+}
+
+.login_container div:nth-child(5) {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.confirm_mobile,
+.send_mobile,
+.login_container div:nth-child(5) button:nth-child(3) {
+    width: 150px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: #F45858;
+    color: #fdfdfd;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    outline: none;
+    margin-left: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirm_mobile {
+    display: none;
+}
+
+.confirm_mobile_show {
+    display: flex;
+}
+
+.send_mobile_hide {
+    display: none;
+}
+
+.login_container div:nth-child(5) button:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    background-color: #A698CF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login_container div:nth-child(5) button:nth-child(3) svg {
+    margin-left: 11px;
+}
+
+.login_container div:nth-child(6) {
+    margin-top: 15px;
+    width: 315px;
+}
+
+.login_container div:nth-child(6) p[aria-label="resend-code-title"] {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4B416A;
+}
+
+.login_container div:nth-child(6) div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login_container div:nth-child(6) div p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4B416A;
+    line-height: 30px;
+    cursor: pointer;
+}

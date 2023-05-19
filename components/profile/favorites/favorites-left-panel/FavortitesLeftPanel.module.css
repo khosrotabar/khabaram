@@ -1,0 +1,280 @@
+.favorites_left_panel_container {
+    margin-right: 36px;
+    width: 868px;
+    padding-top: 19px;
+    padding-bottom: 44px;
+    padding-right: 27px;
+    padding-left: 26px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.favorites_main_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.favorites_main_title p {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.favorites_main_title div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.favorites_main_title div:last-child {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    white-space: nowrap;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100px;
+    height: 0px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.2s;
+    display: block;
+    text-align: center
+}
+
+.favorites_main_title div:last-child p {
+    color: #F45858;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.show_remove_btn div:last-child {
+    height: 45px;
+}
+
+.favorites_grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
+.favorites_container {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.favortites_left {
+    margin-right: 19px;
+    width: 166px;
+}
+
+.favorites_right {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 208px;
+    height: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorites_image {
+    width: 167px;
+    height: 167px;
+}
+
+.favortites_sub_title {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(88, 88, 88, 0.6);
+    line-height: 37px;
+}
+
+.favortites_price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.favortites_price div {
+    width: 23px;
+    display: flex;
+    margin-right: 7px;
+}
+
+.favortites_price p {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(88, 88, 88, 0.6);
+    line-height: 37px;
+}
+
+.favortites_similar_products_link {
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.favortites_similar_products_link p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #A698CF;
+    line-height: 37px;
+}
+
+.favortites_similar_products_link svg {
+    margin-right: 7px;
+}
+
+.favortites_remove_btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 104px;
+    height: 41px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #F45858;
+    color: #fdfdfd;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 37px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.favortites_remove_btn p {
+    margin-right: 7px;
+}
+
+.show_hidden_element {
+    display: flex;
+}
+
+/* delete diaolog box */
+
+.delete_dialog_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.delete_dialog_form {
+    width: 500px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s 0.1s;
+}
+
+.delete_dialog_icon {
+    width: 64px;
+}
+
+.delete_dialog_form_up_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.delete_dialog_form_up_side p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4B416A;
+    margin-top: 15px;
+}
+
+.delete_dialog_form_down_side {
+    margin-top: 30px;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 8px 8px;
+    padding: 40px 0px;
+    border-top: 2px solid #e3e3e3;
+}
+
+.delete_dialog_form_down_side p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #585858;
+    margin: auto;
+    width: fit-content;
+}
+
+.delete_dialog_form_down_side div:not(.favorites_loading_2) {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.favorites_loading_2 {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.delete_dialog_form_down_side button {
+    border: 1px solid rgba(181, 181, 181, 0.5);
+    outline: none;
+    width: 140px;
+    height: 45px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #585858;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.delete_dialog_form_down_side button:first-child {
+    border: none;
+    background-color: #4B416A;
+    color: #fff;
+}
+
+.delete_dialog_container_show {
+    opacity: 1;
+    z-index: 999;
+}
+
+.delete_dialog_form_show {
+    opacity: 1;
+}
+
+.delete_dialog_close {
+    width: 50px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    cursor: pointer;
+}

@@ -1,0 +1,134 @@
+.home_part_3 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.home_part_3_right_image,
+.home_part_3_left_images div:first-child,
+.home_part_3_left_images div:last-child {
+    position: relative;
+}
+
+.home_part_3_right_image {
+    width: 260px;
+    height: 289px;
+    margin-top: -14px;
+    margin-right: 25px;
+}
+
+.home_part_3_right_texts {
+    text-align: left;
+    padding-top: 34px;
+    padding-left: 32px;
+}
+
+.home_part_3_right_texts p:first-child,
+.home_part_3_right_texts p:nth-child(2),
+.home_part_3_left_texts p:first-child,
+.home_part_3_left_texts p:nth-child(2) {
+    font-size: 24px;
+    color: #4B416A;
+}
+
+.home_part_3_right_texts p:first-child,
+.home_part_3_left_texts p:first-child {
+    font-weight: bold;
+}
+
+.home_part_3_right_texts p:nth-child(2),
+.home_part_3_left_texts p:nth-child(2) {
+    font-weight: 800;
+}
+
+.home_part_3_left_texts p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.home_part_3_right_texts button {
+    width: 111px;
+    height: 41px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #A698CF;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.home_part_3_left_images {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.home_part_3_left_images div {
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+}
+
+.home_part_3_left_images div:first-child {
+    position: absolute;
+    width: 329.48px;
+    height: 329.48px;
+    right: -35px;
+    top: -50px;
+}
+
+.home_part_3_left_images div:last-child {
+    width: 238.13px;
+    height: 238.13px;
+    right: 135px;
+    top: 75px;
+}
+
+.home_part_3_right,
+.home_part_3_left {
+    width: 585px;
+    height: 260px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #f4f4f4, #b7b7b7);
+    margin: 0 15px;
+}
+
+.home_part_3_left {
+    align-items: flex-end;
+    position: relative;
+}
+
+.home_part_3_left_texts {
+    padding-left: 40px;
+    text-align: left;
+}
+
+.home_part_3_left_texts div {
+    background-color: #A698CF;
+    border-radius: 8px 8px 0 0;
+    width: 64px;
+    height: 63px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.home_part_3_left_texts div svg {
+    width: 38px;
+    height: 30px;
+}
+
+.home_part_3_left_hover {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    bottom: -60px;
+}

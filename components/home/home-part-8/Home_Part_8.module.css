@@ -1,0 +1,73 @@
+.home_part_8_container {
+    text-align: center;
+    margin-top: 51px;
+}
+
+.home_part_8_title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #4B416A;
+}
+
+.home_part_8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+
+.home_part_8_items {
+    width: 128px;
+    height: 194px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20.5px;
+    cursor: pointer;
+}
+
+.home_part_8_items p {
+    font-size: 18px;
+    color: #4B416A;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+    margin-top: 19px;
+}
+
+.home_part_8_items .item_4_except {
+    color: #fff;
+}
+
+.home_part_8_items_image_1 {
+    width: 36px;
+    height: 53px;
+    position: relative;
+}
+
+.home_part_8_items_image_2 {
+    width: 44px;
+    height: 49.37px;
+    position: relative;
+}
+
+.home_part_8_items_image_3 {
+    width: 50.15px;
+    height: 46.6px;
+    position: relative;
+}
+
+.home_part_8_items_image_4 {
+    width: 49px;
+    height: 50px;
+    position: relative;
+}
+
+.home_part_8_items_image_5 {
+    width: 40px;
+    height: 55.02px;
+    position: relative;
+}

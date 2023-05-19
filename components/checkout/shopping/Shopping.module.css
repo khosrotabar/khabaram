@@ -1,0 +1,435 @@
+.shopping_container {
+    margin-top: 25px;
+    display: flex;
+    align-items:  flex-start;
+    justify-content: space-between;
+}
+
+.shopping_right_container {
+    width: 773px;
+}
+
+.shopping_right_upside_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shopping_right_upside_left,
+.shopping_right_upside_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 373px;
+    height: 104px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    color: #b5b5b5;
+    cursor: pointer;
+}
+
+.shopping_right_upside_left p,
+.shopping_right_upside_right p {
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 17px;
+}
+
+.shopping_right_downside_container {
+    margin-top: 36px;
+    padding: 23px 28px 39px 65px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.shopping_right_downside_part_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.shopping_right_downside_title p {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.shopping_right_downside_images_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.shopping_right_downside_images_body 
+.shopping_right_downside_image_container:nth-child(2) {
+    margin-right: -48px;
+    z-index: 1;
+}
+
+.shopping_right_downside_images_body 
+.shopping_right_downside_image_container:nth-child(3) {
+    margin-right: -50px;
+    z-index: 1;
+}
+
+.shopping_right_downside_image_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 89px;
+    height: 89px;
+    border: 1px rgba(181, 181, 181, 0.3) solid;
+    border-radius: 50%;
+    background-color: #ffffff
+}
+
+.shopping_right_downside_image {
+    width: 60px;
+    height:60px;
+    height: fit-content;
+}
+
+.shopping_right_downside_delivery_time,
+.shopping_right_downside_delivery_price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    height: 51px;
+    background-color: rgba(181, 181, 181, 0.1);
+    border-radius: 8px;
+}
+
+.shopping_right_downside_delivery_time p,
+.shopping_right_downside_delivery_price p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4B416A;
+    margin-right: 9px;
+}
+
+.shopping_right_downside_delivery_price {
+    width: 201px;
+}
+
+.shopping_right_downside_discount {
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+}
+
+.shopping_right_downside_discount p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #585858;
+}
+
+.shopping_right_downside_discount input {
+    border: 3px rgba(181, 181, 181, 0.3) solid;
+    outline: none;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    width: 245px;
+    height: 51px;
+    padding-right: 20px;
+    color: #585858;
+    font-size: 16px;
+    margin-right: 22px;
+}
+
+.shopping_right_downside_discount button {
+    border: none;
+    outline: none;
+    width: 88px;
+    height: 51px;
+    border-radius: 8px;
+    background-color: #A698CF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fdfdfd;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.shopping_left_upside {
+    z-index: 1;
+    width: 409px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.shopping_left_upside_part_1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    padding: 32px 29px 0px 29px;
+}
+
+.shopping_left_upside_part_1_prices {
+    margin-top: -5px;
+}
+
+.shopping_left_upside_part_1_prices div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 9px;
+    color: #585858;
+}
+
+.shopping_left_upside_part_1_prices div:nth-child(2),
+.shopping_left_upside_part_1_prices div:nth-child(3) {
+    margin-top: 25px;
+}
+
+.shopping_left_upside_part_1_prices div svg {
+    margin-right: 7px;
+}
+
+.shopping_left_upside_part_1_prices div:last-child {
+    background-color: #A698CF;
+    height: 46px;
+    border-radius: 8px;
+    color: #fdfdfd;
+}
+
+.shopping_left_upside_part_1_prices div p {
+    line-height: 37px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.shopping_left_upside_texts p {
+    color: #4B416A;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.shopping_left_upside_texts p:nth-child(2) {
+    margin-top: 30px;
+}
+
+.shopping_left_upside_texts p:nth-child(3) {
+    margin-top: 39px;
+}
+
+.shopping_left_upside_texts p:last-child {
+    font-weight: 850;
+}
+
+.shopping_left_upside_part_2 {
+    height: 55px;
+    border-radius: 0 0 8px 8px;
+    background-color: #F45858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fdfdfd;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.shopping_left_upside_part_2 p {
+    font-size: 16px;
+    font-weight: 850;
+}
+
+.shopping_left_downside {
+    width: 409px;
+    border: 3px rgba(181, 181, 181, 0.3) solid;
+    border-radius: 8px;
+    padding: 23px 29px 23px 41px;
+    margin-top: 36px;
+}
+
+.shopping_left_downside_title {
+    font-size: 16px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.shopping_left_downside div {
+   display: flex; 
+   align-items: flex-start;
+   margin-top: 17px;
+}
+
+.shopping_left_downside div svg {
+    margin-top: 7px;
+}
+
+.shopping_left_downside div p {
+    width: 307px;
+    margin-right: 13px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #585858;
+}
+
+.shopping_right_downside_part_3 {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 41px;
+}
+
+.shopping_right_downside_part_3_add_address {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.shopping_right_downside_part_3_add_address p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4B416A;
+}
+
+.shopping_right_downside_part_3_address {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.shopping_right_downside_part_3_address p {
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    color: #585858;
+}
+
+.shopping_right_downside_part_3_all_addresses {
+    margin-right: 50px;
+}
+
+.shopping_right_downside_part_3_all_addresses div:not(:first-child) {
+    margin-top: 10px;
+}
+
+.shopping_right_downside_part_3_all_addresses div p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #585858;
+}
+
+.menu_vertical { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+}
+
+.shopping_hover_opener_btn {
+    position: absolute;
+    border: none;
+    outline: none;
+    color: #4B416A;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    color: #4B416A;
+    font-weight: bold;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    left: 30px;
+    top: -15px;
+    z-index: -1;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 200ms;
+}
+
+.pay_method_active {
+    background-color: #A698CF;
+    color: #fdfdfd;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  right: -35px;
+  height: 25px;
+  width: 25px;
+  border-radius: 8px;
+  border: 2px solid #B5B5B5;  
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: rgba(166, 152, 207, 0.6);
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #A698CF;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.hide {
+    display: none;
+}
+
+.show_by_opacity {
+    z-index: 1;
+    opacity: 1;
+}
+
+.dark_theme {
+    background-color: #999999;
+    color: #fdfdfd;
+    cursor: default;
+}

@@ -1,0 +1,59 @@
+.profile_left_panel_downside_container {
+    width: 868px;
+    height: 436px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    margin-top: 36px;
+    padding-top: 19px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.profile_left_panel_downside_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile_left_panel_downside_title p:first-of-type {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.profile_left_panel_downside_title p:last-of-type {
+    font-size: 14px;
+    font-weight: bold;
+    color: #b5b5b5;
+    cursor: pointer;
+}
+
+.profile_left_panel_downside_empty_viewed_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.profile_left_panel_downside_empty_viewed_texts {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 17.9px;
+}
+
+.profile_left_panel_downside_empty_viewed_texts div {
+    width: 13.5px;
+    height: 13.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background-color: #A698CF;
+    margin-top: 8px;
+}
+
+.profile_left_panel_downside_empty_viewed_texts p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4B416A;
+    margin-right: 9px;
+    width: 178px;
+}

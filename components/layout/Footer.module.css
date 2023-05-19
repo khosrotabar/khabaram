@@ -1,0 +1,133 @@
+.footer {
+  box-shadow: 0 -7px 31px -8px rgba(101, 101, 101, 0.1);
+}
+
+.footer_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 96px 73px 94px 83px;
+}
+
+.footer_from_right_part_1 {
+  width: 303px;
+  height: 211px;
+}
+
+.footer_from_right_part_1 p {
+  color: #585858;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 13px 0 0 0;
+  padding: 0;
+}
+
+.footer_from_right_part_1 div {
+  display: flex;
+  align-items: center;
+}
+
+.footer_from_right_part_1 div:first-child {
+  cursor: pointer;
+}
+
+.footer_from_right_part_1 div svg:last-child {
+  margin-right: 7.56px;
+}
+
+.footer_from_right_part_1 .footer_social {
+  margin-top: 18px;
+}
+
+.footer_from_right_part_1 .footer_social svg {
+  cursor: pointer;
+  margin: 0 5.5px;
+}
+
+.footer_from_right_part_1 .footer_social svg:first-child {
+  margin-right: 0;
+}
+
+.footer_from_right_part_2,
+.footer_from_right_part_3,
+.footer_from_right_part_4 {
+  text-align: center;
+  width: 116px;
+  height: 208px;
+}
+
+.footer_from_right_part_3 {
+  width: 126px;
+}
+
+.footer_from_right_part_4 {
+  width: 117px;
+}
+
+.title {
+  margin: 0;
+  color: #4b416a;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer_from_right_part_2 p:not(.title),
+.footer_from_right_part_3 p:not(.title),
+.footer_from_right_part_4 p:not(.title) {
+  padding: 0;
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  color: #868686;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.footer_from_right_part_5 {
+  width: 263px;
+  height: 173px;
+}
+
+.footer_location {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 21px;
+}
+
+.footer_location svg {
+  margin-top: 5px;
+}
+
+.footer_location p,
+.footer_phones p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #868686;
+  margin: 0 12px 0 0;
+  padding: 0;
+  width: 221px;
+  line-height: 37px;
+}
+
+.footer_phones {
+  display: flex;
+  align-items: center;
+}
+
+.footer_phones p {
+  width: auto;
+}
+
+@media only screen and (max-width: 1215px) {
+  .footer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1510px) {
+  .footer_content {
+    width: 1340px;
+    margin: auto;
+  }
+}

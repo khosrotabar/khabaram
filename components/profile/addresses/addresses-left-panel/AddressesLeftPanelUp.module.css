@@ -1,0 +1,298 @@
+.addresses_left_panel_upside_container {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 868px;
+    padding: 19px 26px 35px 26px;
+    position: relative;
+}
+
+.addresses_left_panel_upside_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 41px;
+}
+
+.addresses_left_panel_upside_title p:first-child {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.addresses_left_panel_upside_title div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addresses_left_panel_upside_title div svg {
+    margin-left: 6px;
+}
+
+.addresses_left_panel_upside_title div p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #b5b5b5;
+}
+
+.addresses_left_panel_upside_address_details_container {
+    margin-top: 45px;
+}
+
+.addresses_left_panel_upside_container .addresses_left_panel_upside_address_container:not(:nth-child(2)) {
+   margin-top: 40px;
+   border-top: 1px solid rgba(181, 181, 181, 0.3);
+   padding-top: 40px;
+}
+
+.addresses_left_panel_upside_address_container input,
+.addresses_left_panel_upside_address_details_right_side div input {
+    width: 365px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #4B416A;
+    font-size: 16px;
+    font-weight: medium;
+    background-color: #f4f4f4;
+}
+
+.addresses_left_panel_upside_address_details_right_side div {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.addresses_left_panel_upside_address_details_right_side div:not(:first-child) {
+    margin-top: 21px;
+}
+
+.addresses_left_panel_upside_address_details_right_side div p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #585858;
+    margin-right: 15px;
+}
+
+.addresses_left_panel_upside_address_details_right_side div input[type="number"] {
+   width: 200px;
+   margin-right: 64px;
+}
+
+.addresses_left_panel_upside_address_details_right_side div input[type="tel"] {
+   width: 200px;
+   margin-right: 51px;
+}
+
+.addresses_left_panel_upside_address_details_right_side div input[type="text"] {
+   width: 200px;
+   margin-right: 83px;
+}
+
+.address_edit_btn {
+    position: absolute;
+    left: 26.44px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.new_inputs_style {
+   background-color: #fff;
+}
+
+.address_edit_btn_details {
+    position: absolute;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 0px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: width 0.2s;
+}
+
+.address_edit_btn_details div:first-child:not(.remove_loading),
+.address_edit_btn_details div:last-child:not(.remove_loading) {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #585858;
+    cursor: pointer;
+}
+
+.address_edit_btn_details div:last-child:not(.remove_loading) {
+    border-top: 1px solid #f4f4f4;
+    padding: 0;
+    color: #F45858;
+}
+
+.address_edit_btn_details div:last-child p {
+    padding: 10px 0;
+}
+
+.address_edit_btn_details_show {
+    width: 100px;
+}
+
+.edit_address_apply_container {
+    float: left;
+    margin-top: -50px;
+    display: none;
+}
+
+.edit_address_apply_container button {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #585858;
+    cursor: pointer;
+}
+
+.edit_address_apply_container button:first-child {
+    margin-left: 10px;
+    color: #fff;
+    background-color: #A698CF;
+}
+
+.edit_address_apply_container_show {
+    display: flex;
+    align-items: flex-end;
+}
+
+.address_loading,
+.remove_loading,
+.address_loading_2 {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.remove_loading {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.delete_dialog_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.delete_dialog_form {
+    width: 500px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s 0.1s;
+}
+
+.delete_dialog_icon {
+    width: 64px;
+}
+
+.delete_dialog_form_up_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.delete_dialog_form_up_side p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4B416A;
+    margin-top: 15px;
+}
+
+.delete_dialog_form_down_side {
+    margin-top: 30px;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 8px 8px;
+    padding: 40px 0px;
+    border-top: 2px solid #e3e3e3;
+}
+
+.delete_dialog_form_down_side p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #585858;
+    margin: auto;
+    width: fit-content;
+}
+
+.delete_dialog_form_down_side div:not(.address_loading_2) {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.delete_dialog_form_down_side button {
+    border: 1px solid rgba(181, 181, 181, 0.5);
+    outline: none;
+    width: 140px;
+    height: 45px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #585858;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.delete_dialog_form_down_side button:first-child {
+    border: none;
+    background-color: #4B416A;
+    color: #fff;
+}
+
+.delete_dialog_container_show {
+    opacity: 1;
+    z-index: 999;
+}
+
+.delete_dialog_form_show {
+    opacity: 1;
+}
+
+.delete_dialog_close {
+    width: 50px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    cursor: pointer;
+}

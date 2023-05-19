@@ -1,0 +1,64 @@
+.profile_left_panel_upside_left_container {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 235px;
+    height: 356px;
+    margin-right: 36px;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 47px;
+}
+
+.profile_left_panel_upside_left_title {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+    white-space: nowrap;
+}
+
+.profile_left_panel_upside_left_current_orders,
+.profile_left_panel_upside_left_returned_orders,
+.profile_left_panel_upside_left_delivery {
+    width: 175px;
+    height: 55px;
+    margin: auto;
+    margin-top: 23px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fdfdfd;
+    padding: 0 18px;
+    white-space: nowrap;
+}
+
+.profile_left_panel_upside_left_current_orders {
+    background-color: #A698CF;
+    margin-top: 44px;
+}
+
+.profile_left_panel_upside_left_returned_orders {
+    background-color: #F2CD6C;
+    padding: 0 19px 0 18px;
+}
+
+.profile_left_panel_upside_left_delivery {
+    background-color: #9FDB8B;
+}
+
+.profile_left_panel_upside_left_current_orders p:first-of-type,
+.profile_left_panel_upside_left_returned_orders p:first-of-type,
+.profile_left_panel_upside_left_delivery p:first-of-type {
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.profile_left_panel_upside_left_current_orders p:last-child,
+.profile_left_panel_upside_left_returned_orders p:last-child ,
+.profile_left_panel_upside_left_delivery p:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    width: 77px;
+    text-align: center;
+}

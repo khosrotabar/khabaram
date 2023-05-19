@@ -1,0 +1,42 @@
+.profile_right_downside_container {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding-top: 19px;
+    text-align: center;
+    margin-top: 36px;
+    height: 381px;
+}
+
+.profile_right_downside_title {
+    font-size: 20px;
+    font-weight: 850;
+    color: #4B416A;
+}
+
+.profile_right_downside_empty_comments {
+    margin-top: 38px;
+}
+
+.profile_right_downside_empty_comments_texts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 23.48px;
+    padding-bottom: 47px;
+}
+
+.profile_right_downside_empty_comments_texts p {
+    margin-right: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4B416A;
+    width: 150px;
+}
+
+.profile_right_downside_empty_comments_texts div {
+    width: 13.54px;
+    height: 13.57px;
+    background-color: #A698CF;
+    transform: rotate(45deg);
+    margin-top: 10px;
+}

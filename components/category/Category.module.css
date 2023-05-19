@@ -1,0 +1,14 @@
+.category_container {
+  position: relative;
+  width: 1218px;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.category_container p {
+  margin: 0;
+  padding: 0;
+}
