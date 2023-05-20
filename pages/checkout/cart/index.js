@@ -80,13 +80,16 @@ export async function getServerSideProps(context) {
   let userLogedIn = true;
 
   if (userMobile) {
-    const response = await fetch("http:localhost:3000/api/getAllShoppingCart", {
-      method: "POST",
-      body: JSON.stringify({ userMobile }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    const response = await fetch(
+      "https://khabaram.vercel.app/api/getAllShoppingCart",
+      {
+        method: "POST",
+        body: JSON.stringify({ userMobile }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
 
     results = await response.json();
 

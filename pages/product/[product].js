@@ -48,7 +48,7 @@ export async function getServerSideProps(context) {
 
   let productInCart = true;
 
-  const response = await fetch("http://localhost:3000/api/product", {
+  const response = await fetch("https://khabaram.vercel.app/api/product", {
     method: "POST",
     body: JSON.stringify({ url: slug }),
     headers: {
@@ -59,13 +59,16 @@ export async function getServerSideProps(context) {
   const product = await response.json();
 
   if (userMobile) {
-    const response = await fetch("http:localhost:3000/api/getAllShoppingCart", {
-      method: "POST",
-      body: JSON.stringify({ userMobile }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    const response = await fetch(
+      "https://khabaram.vercel.app/api/getAllShoppingCart",
+      {
+        method: "POST",
+        body: JSON.stringify({ userMobile }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
 
     results = await response.json();
 
