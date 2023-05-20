@@ -46,7 +46,7 @@ function Orders(props) {
 export async function getServerSideProps(context) {
   const userMobile = context.req.cookies["customer"];
 
-  const response = await fetch("http://localhost:3000/api/getUser", {
+  const response = await fetch("https://khabaram.vercel.app/api/getUser", {
     method: "POST",
     body: JSON.stringify({ userMobile }),
     headers: {

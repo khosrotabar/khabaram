@@ -49,13 +49,16 @@ function Comments(props) {
 export async function getServerSideProps(context) {
   const userMobile = context.req.cookies["customer"];
 
-  const response = await fetch("http://localhost:3000/api/getUserComments", {
-    method: "POST",
-    body: JSON.stringify({ userMobile }),
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
+  const response = await fetch(
+    "https://khabaram.vercel.app/api/getUserComments",
+    {
+      method: "POST",
+      body: JSON.stringify({ userMobile }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
+  );
 
   const results = await response.json();
 
