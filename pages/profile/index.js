@@ -48,7 +48,7 @@ export async function getServerSideProps(context) {
   let response;
 
   if (userMobile) {
-    response = await fetch("http://localhost:3000/api/getUser", {
+    response = await fetch("https://khabaram.vercel.app/api/getUser", {
       method: "POST",
       body: JSON.stringify({ userMobile }),
       headers: {
