@@ -1,4 +1,4 @@
-<h2>This project made by next js and react and mongodb database</h2>
+This project made by next js and react and mongodb database
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
