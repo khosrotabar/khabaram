@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
 // import required modules
-import { Pagination, Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import styles from "./Home_Part_1.module.css";
 import Link from "next/link";

@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import required modules
-import { Navigation, Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper/modules";
 
 import styles from "./Home_Part_7.module.css";
 import { MostViewedProducts } from "../../../datas/home/home-part-7/most_viewed_products";
